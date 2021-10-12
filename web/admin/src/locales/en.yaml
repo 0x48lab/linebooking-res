@@ -1,0 +1,1105 @@
+AbsentOrPresent:
+  absent: Absent
+  present: Present
+AddAdminModal:
+  buttons:
+    add: Add Admin
+    cancel: Cancel
+  errors:
+    email-alreay-exists: E-mail Already Exists
+  fields:
+    email: Email
+    name: Name
+    password: Password
+    password-confirm: Confirm Password
+  placeholders:
+    email: Enter Email
+    name: Enter Name
+    password: Enter Password
+    password-confirm: Enter Password Confirmation
+  title: Add Admin
+AddBookingModal:
+  actions:
+    add: Add Booking
+    cancel: Cancel
+  errors:
+    already-booked: Already Booked
+    lesson-reached-max-bookings: Lesson Reached Max Bookings
+    required-fields-empty: Required Fields Empty
+    student-has-no-tickets: Student Has No Tickets
+    student-has-no-valid-ticket: Student Has No Valid Ticket
+    validation-failed: Validation Failed
+  fields:
+    comment: Comment
+    filter: Filter
+    student: Student
+  filters:
+    students:
+      empty: All Students
+      with-tickets-available: Students With Tickets Available
+  placeholders:
+    comment: Enter comment
+    student: Select Student
+  title: Add Booking
+AddClassroomModal:
+  actions:
+    add-classroom: Add Classroom
+    cancel: Cancel
+  fields:
+    category: Category
+    id: ID
+    max-seats: Max Seats
+    name: Name
+  placeholders:
+    category: Enter Category
+    id: Enter ID
+    name: Enter Name
+    number: Enter number
+  title: Add Classroom
+AddCourseModal:
+  actions:
+    add-course: Add Course
+    cancel: Cancel
+  fields:
+    badge-color: Badge Color
+    badge-label: Badge Label
+    badge-preview: Badge Preview
+    description: Description
+    id: ID
+    name: Name
+    order: Order
+  placeholder:
+    badge-color: Enter Badge Color
+    badge-label: Enter Badge Label
+    description: Enter Description
+    id: Enter ID
+    name: Enter Name
+    number: Enter number
+  title: Add Course
+AddCurriculumModal:
+  actions:
+    add-curriculum: Add Curriculum
+    cancel: Cancel
+  fields:
+    course: Course
+    description: Description
+    documents: Documents
+    id: ID
+    lesson-time: Lesson Time
+    name: Name
+  placeholders:
+    course: Select Course
+    description: Enter Description
+    documents: Enter Documents
+    id: Enter ID
+    lesson-time: Enter Lesson Time
+    name: Enter Name
+  title: Add Curriculum
+AddLessonModal:
+  actions:
+    add-lesson: Add Lesson
+    cancel: Cancel
+  date-formats:
+    day: yyyy/MM/dd EEE
+  fields:
+    assistant-teachers: Assistant Teachers
+    classroom: Classroom
+    course: Course
+    curriculums: Curriculums
+    date: Date
+    end-time: End Time
+    main-teacher: Main Teacher
+    max-booking-count: Max Booking Count
+    start-time: Start Time
+    tags: Tags
+  placeholders:
+    enter-number: Enter number
+  title: Add Lesson
+AddNoteModal:
+  actions:
+    add: Add Note
+    cancel: Cancel
+  fields:
+    content: Content
+  placeholders:
+    content: Enter note
+  title: Add Note
+AddNotificationModal:
+  actions:
+    add-notification: Add Notification
+    cancel: Cancel
+  fields:
+    category: Category
+    condition: Condition
+    destinations: Destinations
+    id: ID
+    is-active: Is Active
+    name: Name
+    template: Template
+    timestamps: Timestamps
+    type: Type
+  placeholders:
+    category: Enter Category
+    condition: Enter Condition
+    destinations: Enter Destinations
+    id: Enter ID
+    is-active: Is it active?
+    name: Enter Name
+    template: Enter Template
+    timestamps: Enter Timestamps
+    type: Enter Type
+  title: Add Notification
+AddStudentModal:
+  actions:
+    add-student: Add Student
+    cancel: Cancel
+  errors:
+    id-already-exists: ID Already Exists
+  fields:
+    attach-to-user: Attach To a User
+    birthday: Birthday
+    courses: Courses
+    first-name: First Name
+    first-name-phonetic: First Name Phonetic
+    grade: Grade
+    id: ID
+    last-name: Last Name
+    last-name-phonetic: Last Name Phonetic
+    monthly-attendance: Monthly Attendance
+    sign-in-date: Sign In Date
+    sign-out-date: Sign Out Date
+    tags: Tags
+  notes:
+    courses: >-
+      Student will have access to lessons from all of those courses in his or
+      her booking portal.
+    monthly-attendance: This is the number of tickets that the student will be awarded each month.
+    sign-out-date: >-
+      If not empty, the student is considered inactive and his or her booking
+      portal is disabled.
+    tags: >-
+      Student will have access only to lessons which have at least one of those
+      tags in his or her booking portal.
+  placeholders:
+    attach-to-user: Select User
+    birthday: Enter Birthday
+    first-name: Enter First Name
+    first-name-phonetic: Enter First Name Phonetic
+    grade: Enter Grade
+    id: Enter ID
+    last-name: Enter Last Name
+    last-name-phonetic: Enter Last Name Phonetic
+    monthly-attendance: Enter Monthly Attendance
+    sign-in-date: Enter Sign In Date
+    sign-out-date: Enter Sign Out Date
+  title: Add Student
+AddTagModal:
+  actions:
+    add: Add Tag
+    cancel: Cancel
+  fields:
+    color: Color
+    name: Name
+    preview: Preview
+  placeholders:
+    color: Enter Color
+    name: Enter Name
+  title: Add Tag
+AddTeacherModal:
+  actions:
+    add-teacher: Add Teacher
+    cancel: Cancel
+  fields:
+    birthday: Birthday
+    courses: Courses
+    email: Email
+    first-name: First Name
+    first-name-phonetic: First Name Phonetic
+    introduction: Introduction
+    last-name: Last Name
+    last-name-phonetic: Last Name Phonetic
+    tags: Tags
+  placeholders:
+    birthday: Enter Lesson Time
+    email: Enter Email
+    first-name: Enter First Name
+    first-name-phonetic: Enter First Name Phonetic
+    introduction: Enter Introduction
+    last-name: Enter Last Name
+    last-name-phonetic: Enter Last Name Phonetic
+  title: Add Teacher
+AddTicketsModal:
+  actions:
+    add: Add Tickets
+    cancel: Cancel
+    set-valid-next-month: next month
+    set-valid-this-month: this month
+  fields:
+    count: Count
+    valid-from: Valid From
+    valid-through: Valid Through
+  placeholders:
+    count: Enter Tickets Count
+    valid-from: Enter Valid From Date
+    valid-through: Enter Valid Through Date
+  set-validity-dates: 'Set validity dates:'
+  title: Add Tickets
+AddUserModal:
+  actions:
+    add-user: Add User
+    cancel: Cancel
+  errors:
+    email-already-exists: E-mail Already Exists
+  fields:
+    confirm-password: Confirm Password
+    email: Email
+    line-id: LINE ID
+    name: Name
+    new-password: New Password
+    phone-number: Phone Number
+  placeholders:
+    confirm-password: Enter Password
+    email: Enter Email
+    line-id: Enter LINE ID
+    name: Enter Name
+    password: Enter Password
+    phone-number: Enter Phone Number
+  title: Add User
+AdminDetailsTable:
+  actions:
+    back: Back
+    change-password: Change Password
+    modify-admin: Modify Admin
+  errors:
+    empty-field: '-'
+  fields:
+    created-date: 'Created Date:'
+    email: 'Email (Login ID):'
+    name: 'Name:'
+  title: Admin Details
+AdminsTable:
+  actions:
+    add: Add Admin
+    details: Details
+  columns:
+    actions: Actions
+    email: Email (Login ID)
+    name: Name
+  errors:
+    empty-field: '-'
+    no-items: No admins found.
+  title: Admins
+App:
+  errors:
+    authorization: Authorization error, redirecting to login page...
+    general-error: Error
+    general-error-title: Error
+    server-error: Server Error
+AssignStudentModal:
+  actions:
+    assign-student: Assign Student
+    cancel: Cancel
+  errors:
+    already-assigned: Already Assigned
+  fields:
+    filter-active: Active
+    filter-course: Filter Course
+    student: Student
+  placeholders:
+    filter-active: All Students
+    student: Select Student
+  title: Assign Student
+AttendanceTable:
+  columns:
+    booking-comment: Comment
+    lesson: Lesson
+    student-course: Course
+    student-grade: Grade
+    student-id: Student ID
+    student-name: Name
+  date-formats:
+    day: yyyy/M/d EEE
+  errors:
+    no-items: No bookings yet.
+  title: Planned attendance for {0}/{1}
+BasicModal:
+  actions:
+    close: Close
+CalendarTable:
+  actions:
+    publish-all-lessons: Publish All Lessons
+  legend:
+    badge: Time・Classroom・Bookings
+    badge-draft: Time・Classroom
+    course: Course
+    draft: Draft Lesson
+    published: Published Lesson
+    title: 'Legend:'
+  title: Lessons for {0}/{1}
+  weekdays:
+    friday: 金
+    monday: 月
+    saturday: 土
+    sunday: 日
+    thursday: 木
+    tuesday: 火
+    wednesday: 水
+ChangePasswordModal:
+  actions:
+    cancel: Cancel
+    change-password: Change Password
+  fields:
+    confirm-password: Confirm Password
+    new-password: New Password
+  placeholders:
+    confirm-password: Enter Password
+    enter-password: Enter Password
+    new-password: Enter Password
+    password: Enter Password
+  title: Change Password
+ChangePhotoModal:
+  actions:
+    cancel: Cancel
+    change: Change Photo
+    change-photo: Change Photo
+  fields:
+    new-photo: New Photo
+  title: Change Photo
+ClassroomSelect:
+  classrooms: Classrooms
+  placeholder: Select Classroom
+ClassroomSelectMultiple:
+  no-category-label: Classrooms
+  placeholder: Select Classrooms
+ClassroomsTable:
+  actions:
+    add-classroom: Add Classroom
+    modify: Modify
+    something: Something
+  columns:
+    actions: Actions
+    category: Category
+    id: ID
+    max-seats: Max Seats
+    name: Name
+  errors:
+    no-items: No classrooms found.
+  title: Classrooms
+CloneLessonModal:
+  actions:
+    cancel: Cancel
+    clone-lesson: Clone Lesson
+  fields:
+    assistant-teachers: Assistant Teachers
+    classroom: Classroom
+    course: Course
+    curriculums: Curriculums
+    date: Date
+    end-time: End Time
+    main-teacher: Main Teacher
+    max-booking-count: Max Booking Count
+    start-time: Start Time
+    tags: Tags
+  placeholders:
+    assistant-teachers: Select Assistant Teachers
+    course: Select Course
+    curriculums: Select Curriculums
+    date: Enter Date
+    main-teacher: Select Main Teacher
+    number: Enter number
+  title: Clone Lesson
+CourseSelect:
+  empty-default: All Courses
+  placeholder: Select Course
+CourseSelectMultiple:
+  placeholder: Select Courses
+CoursesTable:
+  actions:
+    add-course: Add Course
+    delete: Delete
+    modify: Modify
+  columns:
+    actions: Actions
+    badge: Badge
+    description: Description
+    id: ID
+    name: Name
+    order: Order
+  errors:
+    no-items: No courses found.
+  title: Courses
+CurriculumsTable:
+  actions:
+    add-curriculum: Add Curriculum
+    modify: Modify
+  columns:
+    actions: Actions
+    course: Course
+    description: Description
+    documents: Documents
+    id: ID
+    lesson-time: Lesson Time
+    name: Name
+  errors:
+    no-curriculums-found: No curriculums found.
+  title: Curriculums
+EditCommentModal:
+  actions:
+    add: Add Comment
+    cancel: Cancel
+    edit: Edit Comment
+  fields:
+    content: Content
+  placeholders:
+    content: Enter comment
+  title: Booking Comment
+EditStudentReportModal:
+  actions:
+    cancel: Cancel
+    reload: Reload
+    save: Save Report
+  contents-changed-externally: Contents changed externally!
+  fields:
+    attach-images: Attach images
+    attached-images: Attached Images
+  placeholders:
+    contents: Enter report contents
+  title: Student Report
+FormInputAvatar:
+  choose-file: Choose file...
+ImageGalleryEditor:
+  drop-files-here: Drop files here...
+  errors:
+    file-size-too-large: 'File size too large: "{0}" is {1} MB (max {2} MB)!'
+    file-type-not-supported: 'File type not supported: "{0}" is "{1}" (should be "image/*")!'
+    too-many-files: 'Too many files: "{0}" (max {1})!'
+  select-or-drag-and-drop-images: Select or drag & drop images...
+LessonDetailsTable:
+  BookingsTable:
+    Row:
+      actions:
+        add-report: Add
+        edit-report: Edit
+        remove: Remove
+        view-comment: View Comment
+        view-reports: View Reports
+      created: by {user}
+      no-report: No report filed yet.
+      updated: updated by {user}
+    actions:
+      add-booking: Add Booking
+    auto-refresh: This data is refreshed automatically when changed externally.
+    columns:
+      actions: Actions
+      attendance: Attendance
+      comment: Comment
+      name: Name
+      reports: Reports
+      student-id: Student ID
+      student-report: Student Report
+    count: '{0} out of {1}'
+    no-items: No bookings yet.
+    title: Bookings
+  LessonReportTable:
+    actions:
+      add: Add Report
+      edit: Edit Report
+    attached-images: Attached Images
+    created: by {user} at {datetime}
+    no-images-attached: No images attached.
+    no-report: No report filed yet.
+    title: Lesson Report
+    updated: updated by {user} at {datetime}
+  actions:
+    back: Back
+    clone-lesson: Clone Lesson
+    modify-lesson: Modify Lesson
+    publish-lesson: Publish Lesson
+    remove-lesson: Remove Lesson
+    revert-to-draft: Revert To Draft
+  errors:
+    cannot-revert-to-draft: Cannot revert to draft when there are bookings for the lesson.
+    none: None
+  fields:
+    assistant-teachers: 'Assistant teachers:'
+    classroom: 'Classroom:'
+    course: 'Course:'
+    curriculums: 'Curriculums:'
+    date: 'Date:'
+    lesson-state: 'Lesson State:'
+    main-teacher: 'Main teacher:'
+    max-bookings: 'Max Bookings:'
+    tags: 'Tags:'
+    time: 'Time:'
+  lesson-state-draft: Draft (not published yet)
+  title: Lesson Details
+NotificationsTable:
+  actions:
+    add-notification: Add Notification
+    modify: Modify
+    something: Something
+  columns:
+    actions: Actions
+    destinations: Destinations
+    condition: Condition
+    id: ID
+    is-active: Is Active
+    name: Name
+    template: Template
+    timestamps: Timestamps
+    type: Type
+  errors:
+    no-items: No notifications found.
+  title: Notifications
+LessonReportModal:
+  actions:
+    cancel: Cancel
+    save: Save Report
+  fields:
+    attach-images: Attach images
+    attached-images: Attached Images
+  placeholders:
+    contents: Enter report contents
+  title: Lesson Report
+LocaleSelect:
+  placeholder: Language
+Login:
+  actions:
+    login: Login
+  fields:
+    email: Email(AdminID)
+    login: Login
+    password: Password
+    remember-me: Remember Me
+  placeholders:
+    email: Email(AdminID)
+    password: Password
+Logout:
+  message: Loggin out...
+MainLayout:
+  menu:
+    admins: 管理者
+    attendance: 出席予定
+    calendar: カレンダー
+    classrooms: 教室
+    courses: コース
+    curriculums: カリキュラム
+    logout: ログアウト
+    notifications: 通知
+    students: 生徒
+    tags: タグ
+    teachers: 講師
+    users: 契約者
+Modal:
+  actions:
+    cancel: Cancel
+ModifyAdminModal:
+  buttons:
+    cancel: Cancel
+    modify: Modify Admin
+  errors:
+    email-already-exists: E-mail Already Exists
+  fields:
+    email: Email(AdminID)
+    name: Name
+  placeholders:
+    email: Enter Email
+    name: Enter Name
+  title: Modify Admin
+ModifyClassroomModal:
+  actions:
+    cancel: Cancel
+    modify-classroom: Modify Classroom
+  fields:
+    category: Category
+    id: ID
+    max-seats: Max Seats
+    name: Name
+  placeholders:
+    category: Enter Category
+    name: Enter Name
+    number: Enter number
+  title: Modify Classroom
+ModifyCourseModal:
+  actions:
+    cancel: Cancel
+    modify-course: Modify Course
+  fields:
+    badge-color: Badge Color
+    badge-label: Badge Label
+    badge-preview: Badge Preview
+    description: Description
+    id: ID
+    name: Name
+    order: Order
+  placeholders:
+    badge-color: Enter Badge Color
+    badge-label: Enter Badge Label
+    description: Enter Description
+    name: Enter Name
+    order: Enter number
+  title: Modify Course
+ModifyCurriculumModal:
+  actions:
+    cancel: Cancel
+    modify: Modify Curriculum
+  fields:
+    course: Course
+    description: Description
+    documents: Documents
+    id: ID
+    lesson-time: Lesson Time
+    name: Name
+  placeholders:
+    course: Select Course
+    description: Enter Description
+    documents: Enter Documents
+    lesson-time: Enter Lesson Time
+    name: Enter Name
+  title: Modify Curriculum
+ModifyLessonModal:
+  actions:
+    cancel: Cancel
+    modify: Modify Lesson
+  fields:
+    assistant-teachers: Assistant Teachers
+    classroom: Classroom
+    course: Course
+    curriculums: Curriculums
+    date: Date
+    end-time: End Time
+    main-teacher: Main Teacher
+    max-booking-count: Max Booking Count
+    start-time: Start Time
+    tags: Tags
+  placeholders:
+    assistant-teachers: Select Assistant Teachers
+    curriculums: Select Curriculums
+    main-teacher: Select Main Teacher
+    number: Enter number
+  title: Modify Lesson
+ModifyNotificationModal:
+  actions:
+    cancel: Cancel
+    modify-notification: Modify Notification
+  fields:
+    category: Category
+    condition: Condition
+    destinations: Destinations
+    id: ID
+    is-active: Is Active
+    name: Name
+    template: Template
+    timestamps: Timestamps
+    type: Type
+  placeholders:
+    category: Enter Category
+    condition: Enter Condition
+    destinations: Enter Destinations
+    id: Enter ID
+    is-active: Is it active?
+    name: Enter Name
+    template: Enter Template
+    timestamps: Enter Timestamps
+    type: Enter Type
+  title: Modify Notification
+ModifyStudentModal:
+  actions:
+    cancel: Cancel
+    modify: Modify Student
+  fields:
+    birthday: Birthday
+    courses: Courses
+    first-name: First Name
+    first-name-phonetic: First Name Phonetic
+    grade: Grade
+    id: ID
+    last-name: Last Name
+    last-name-phonetic: Last Name Phonetic
+    monthly-attendance: Monthly Attendance
+    sign-in-date: Sign In Date
+    sign-out-date: Sign Out Date
+    tags: Tags
+  notes:
+    course: >-
+      Student will have access to lessons from all of those courses in his or
+      her booking portal.
+    monthly-attendance: >-
+      This is a number of tickets that the student will be awarded at the
+      beginning of each month.
+    sign-out-date: >-
+      If not empty, the student is considered inactive and his or her booking
+      portal is disabled.
+    tags: >-
+      Student will have access only to lessons which have at least one of those
+      tags in his or her booking portal.
+  placeholders:
+    birthday: Enter Birthday
+    first-name: Enter First Name
+    first-name-phonetic: Enter First Name Phonetic
+    grade: Enter Grade
+    last-name: Enter Last Name
+    last-name-phonetic: Enter Last Name Phonetic
+    monthly-attendance: Enter Monthly Attendance
+    sign-in-date: Enter Sign In Date
+    sign-out-date: Enter Sign Out Date
+  title: Modify Student
+ModifyTagModal:
+  actions:
+    cancel: Cancel
+    modify: Modify Tag
+  fields:
+    color: Color
+    name: Name
+    preview: Preview
+  placeholders:
+    color: Enter Color
+    name: Enter Name
+  title: Modify Tag
+ModifyTeacherModal:
+  actions:
+    cancel: Cancel
+    modify-teacher: Modify Teacher
+  fields:
+    birthday: Birthday
+    courses: Courses
+    email: Email
+    first-name: First Name
+    first-name-phonetic: First Name Phonetic
+    introduction: Introduction
+    last-name: Last Name
+    last-name-phonetic: Last Name Phonetic
+    tags: Tags
+  placeholders:
+    birthday: Enter Lesson Time
+    first-name-phonetic: Enter Lesson Time
+    introduction: Enter Introduction
+    last-name-phonetic: Enter Lesson Time
+  title: Modify Teacher
+ModifyUserModal:
+  actions:
+    cancel: Cancel
+    modify-user: Modify User
+  errors:
+    email-already-exists: E-mail Already Exists
+  fields:
+    email: Email
+    line-id: LINE ID
+    name: Name
+    phone-number: Phone Number
+  placeholders:
+    email: Enter Email
+    line-id: Enter LINE ID
+    name: Enter Name
+    phone-number: Enter Phone Number
+  title: Modify User
+PublishCalendarModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to publish all draft lessons for selected classrooms?
+  title: Publish All Lessons
+  warning:
+    appear-in-student-calendar: Lessons will appear in student portal's calendar.
+    bookings-enabled: Bookings will become enabled,
+    can-no-longer-delete: You won't be able to delete them anymore,
+    title: WARNING!
+PublishLessonModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to publish this lesson?
+  title: Publish Lesson
+  warning:
+    appear-in-students-calendar: Lesson will appear in student portal's calendar.
+    bookings-enabled: Bookings will become enabled,
+    cannot-delete: You won't be able to delete it anymore,
+    title: WARNING!
+RemoveBookingModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to remove this booking?
+  title: Remove Booking
+  warning:
+    ticket-already-consumed: >-
+      This booking has already had ticket consumed so it won't be returned to
+      the student!
+    title: WARNING!
+RemoveCourseModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to remove this course?
+  title: Remove Course
+RemoveLessonModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to remove this lesson?
+  title: Remove Lesson
+RemoveNoteModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to remove this note?
+  title: Remove Note
+RemoveTagModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to remove this tag?
+  title: Remove Tag
+RemoveTicketModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to remove this ticket?
+  ticket-label: Issued At — {0}・Valid From — {1}・Valid Through — {2}
+  title: Remove Ticket
+RevertLessonToDraftModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to revert this lesson to draft?
+  title: Revert To Draft
+  warning:
+    disappear-from-student-calendar: Lesson will disappear from student portal's calendar.
+    title: WARNING!
+StudentDetailsTable:
+  BookingsTable:
+    actions:
+      view-report: View Report
+    attendance:
+      absent: Absent
+      not-checked: Not checked
+      present: Present
+    columns:
+      attendance: Attendance
+      comment: Comment
+      date: Date
+      lesson: Lesson
+      report: Report
+    created: by {user}
+    no-items: No bookings found.
+    no-report: No report filed yet.
+    notes:
+      future-lessons-no-report-or-attendance: Future lessons do not have a report or attendance checked yet.
+      ticket-consumed: Ticket for this booking has been consumed.
+      ticket-not-consumed: Ticket for this booking has not been consumed yet.
+    title: Bookings for {0}
+    updated: by {user}
+  NotesTable:
+    actions:
+      add: Add Note
+      remove: Remove
+      view: View Note
+    columns:
+      actions: Actions
+      author: Author
+      content: Content
+      date: Date
+    no-items: No notes found.
+    title: Student Notes
+  TicketsTable:
+    actions:
+      add: Add Tickets
+      remove: Remove
+    columns:
+      actions: Actions
+      associated-booking: Associated Booking
+      issued-at: Issued At
+      valid-from: Valid From
+      valid-through: Valid Through
+    errors:
+      no-other-ticket-valid-for-booking: There is no other ticket valid for the booking.
+    no-items: No tickets found.
+    ticket-is-available: Ticket is available.
+    title: Tickets
+  UsersTable:
+    columns:
+      email: Email
+      line-id: LINE ID
+      name: Name
+      phone-number: Phone Number
+    no-items: No users found.
+    title: Users
+  actions:
+    back: Back
+    change-photo: Change Photo
+    modify-student: Modify Student
+  errors:
+    empty: None
+  fields:
+    birthday: 'Birthday:'
+    courses: 'Courses:'
+    grade: 'Grade:'
+    id: 'ID:'
+    monthly-attendance: 'Monthly Attendance:'
+    name: 'Name:'
+    number-of-tickets: 'Number of Tickets:'
+    phonetic: 'Phonetic:'
+    photo: 'Photo:'
+    sign-in-date: 'Sign In Date:'
+    sign-out-date: 'Sign Out Date:'
+    tags: 'Tags:'
+  title: Student Details
+StudentReportsModal:
+  errors:
+    error-loading-contents: Error loading contents.
+  information: Showing up to 10 bookings before and including this lesson's.
+  loading: Loading
+  no-items-found: No past bookings found.
+  title: Student Reports
+StudentReportsModal-Report:
+  attached-images: Attached Images
+  created: by {user} at {datetime}
+  errors:
+    no-images-attached: No images attached.
+    no-report: No report.
+    student-absent: Student was absent.
+  updated: updated by {user} at {datetime}
+StudentsTable:
+  actions:
+    add-student: Add Student
+    details: Details
+    view-note: View Note
+  columns:
+    actions: Actions
+    courses: Courses
+    grade: Grade
+    id: ID
+    monthly-attendance: 月回数
+    name: Name
+    notes: 備考
+    phonetic: Phonetic
+    tags: Tags
+    tickets: 残数
+  filters:
+    active-students: Active Students
+  items-count: 'Students matching criteria found: {0}'
+  placeholders:
+    active-students: All Students
+  title: Students
+TagsFilter:
+  clear: Clear
+  placeholder: Filter by Tags
+  selected-count: '{0} selected'
+  tags-count: '{count} tags'
+  title: Tags
+TagsModifySelect:
+  placeholder: Select Tags
+TagsTable:
+  actions:
+    add-tag: Add Tag
+    delete: Delete
+    modify: Modify
+  fields:
+    actions: Actions
+    color: Color
+    future-lessons: Future Lessons
+    name: Name
+    students: Students
+    teachers: Teachers
+  no-items: No tags found.
+  title: Tags
+TeacherDetailsTable:
+  actions:
+    back: Back
+    change-password: Change Password
+    change-photo: Change Photo
+    modify-teacher: Modify Teacher
+  errors:
+    none: None
+  fields:
+    birthday: 'Birthday:'
+    courses: 'Courses:'
+    email: 'Email:'
+    id: 'ID:'
+    introduction: 'Introduction:'
+    name: 'Name:'
+    phonetic: 'Phonetic:'
+    photo: 'Photo:'
+    tags: 'Tags:'
+  title: Teacher Details
+TeachersTable:
+  actions:
+    add-teacher: Add Teacher
+    details: Details
+  columns:
+    actions: Actions
+    courses: Courses
+    name: Name
+    phonetic: Phonetic
+    tags: Tags
+  no-items: No teachers found.
+  title: Teachers
+UnassignStudentModal:
+  actions:
+    'no': 'No'
+    'yes': 'Yes'
+  question: Are you sure you want to unassign this student from this user?
+  title: Unassign Student
+UserDetailsTable:
+  StudentsTable:
+    actions:
+      assign-student: Assign Student
+      unassign: Unassign
+    columns:
+      actions: Actions
+      courses: Courses
+      id: ID
+      name: Name
+      phonetic: Phonetic
+      tags: Tags
+    no-items: No students found.
+    title: Students
+  actions:
+    back: Back
+    change-password: Change Password
+    modify-user: Modify User
+  fields:
+    created-date: 'Created Date:'
+    email: 'Email:'
+    last-access-time: 'Last Access Time:'
+    line-id: 'LINE ID:'
+    name: 'Name:'
+    phone-number: 'Phone Number:'
+  title: User Details
+UsersTable:
+  actions:
+    add-user: Add User
+    details: Details
+  columns:
+    actions: Actions
+    courses: Courses
+    created: Created
+    name: Name
+    phonetic: Phonetic
+    student-id: Student ID
+    student-name: Student Name
+    tags: Tags
+  errors:
+    no-students-assigned: No students assigned.
+  filters:
+    active-users: Active Users
+  no-items: No users found.
+  placeholders:
+    active-users: All Users
+  title: Users
+ViewCommentModal:
+  actions:
+    close: Close
+  title: Booking Comment
+ViewNoteModal:
+  actions:
+    close: Close
+  title: Student Note
+ViewReportModal:
+  actions:
+    close: Close
+  attached-images: Attached Images
+  created: by {user} at {datetime}
+  no-images-attached: No images attached.
+  title: Student Report
+  updated: updated by {user} at {datetime}
