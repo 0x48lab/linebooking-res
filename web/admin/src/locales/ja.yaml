@@ -1,61 +1,61 @@
 AbsentOrPresent:
-  absent: 不在
-  present: 現在
+  absent: 欠席
+  present: 出席
 AddAdminModal:
   buttons:
-    add: 追加
+    add: 管理者を追加
     cancel: キャンセル
   errors:
-    email-alreay-exists: メールはすでに存在する
+    email-alreay-exists: Eメールは既に存在しています
   fields:
-    email: メール
+    email: Eメール
     name: 名前
     password: パスワード
-    password-confirm: パスワード確認
+    password-confirm: 確認用パスワード
   placeholders:
-    email: メールを入力してください
+    email: Eメールを入力してください
     name: 名前を入力してください
     password: パスワードを入力してください
-    password-confirm: パスワードを確認ください
-  title: 管理者の追加
+    password-confirm: パスワードを入力してください
+  title: 管理者を追加
 AddBookingModal:
   actions:
     add: 予約を追加
     cancel: キャンセル
   errors:
-    already-booked: すでに予約しています
+    already-booked: 既に予約しています
     lesson-reached-max-bookings: レッスンが最大予約数に達しました
     required-fields-empty: 空の必須フィールド
-    student-has-no-tickets: 学生はチケットを持っていません
-    student-has-no-valid-ticket: 学生は有効なチケットを持っていません
+    student-has-no-tickets: 生徒はチケットを持っていません
+    student-has-no-valid-ticket: 生徒は有効なチケットを持っていません
     validation-failed: 検証に失敗しました
   fields:
     comment: コメント
     filter: フィルター
-    student: 学生
+    student: 生徒
   filters:
     students:
       empty: 全生徒
-      with-tickets-available: チケットをお持ちの学生
+      with-tickets-available: チケットをお持ちの生徒
   placeholders:
     comment: コメントを入力してください
-    student: 学生を選択
+    student: 生徒を選択
   title: 予約を追加
 AddClassroomModal:
   actions:
-    add-classroom: Classroomを追加する
+    add-classroom: 教室を追加
     cancel: キャンセル
   fields:
     category: カテゴリー
     id: ID
     max-seats: 最大座席数
-    name: 名前
+    name: 教室名
   placeholders:
     category: カテゴリを入力してください
     id: IDを入力してください
-    name: 名前を入力
-    number: 番号を入力してください
-  title: Classroomを追加する
+    name: 教室名を入力
+    number: 最大座席数を入力してください
+  title: 教室を追加
 AddCourseModal:
   actions:
     add-course: コースを追加
@@ -66,19 +66,19 @@ AddCourseModal:
     badge-preview: バッジプレビュー
     description: 説明
     id: ID
-    name: 名前
-    order: 注文
+    name: コース名
+    order: 並び順
   placeholder:
     badge-color: バッジの色を入力してください
     badge-label: バッジラベルを入力してください
     description: 説明を入力してください
     id: IDを入力してください
-    name: 名前を入力
-    number: 番号を入力してください
+    name: コース名を入力
+    number: 並び順を入力してください
   title: コースを追加
 AddCurriculumModal:
   actions:
-    add-curriculum: カリキュラムを追加する
+    add-curriculum: カリキュラムを追加
     cancel: キャンセル
   fields:
     course: コース
@@ -86,15 +86,15 @@ AddCurriculumModal:
     documents: ドキュメント
     id: ID
     lesson-time: レッスン時間
-    name: 名前
+    name: カリキュラム名
   placeholders:
     course: コースを選択
     description: 説明を入力してください
     documents: ドキュメントを入力してください
     id: IDを入力してください
     lesson-time: レッスン時間を入力してください
-    name: 名前を入力
-  title: カリキュラムを追加する
+    name: カリキュラム名を入力
+  title: カリキュラムを追加
 AddLessonModal:
   actions:
     add-lesson: レッスンを追加
@@ -102,143 +102,143 @@ AddLessonModal:
   date-formats:
     day: yyyy/MM/dd EEE
   fields:
-    assistant-teachers: アシスタントティーチャー
+    assistant-teachers: アシスタント講師
     classroom: クラスルーム
     course: コース
     curriculums: カリキュラム
     date: 日にち
-    end-time: 終了時間
-    main-teacher: 主任教師
+    end-time: 終了時刻
+    main-teacher: メイン講師
     max-booking-count: 最大予約数
-    start-time: 始まる時間
+    start-time: 開始時刻
     tags: タグ
   placeholders:
-    enter-number: 番号を入力してください
+    enter-number: 最大予約数を入力してください
   title: レッスンを追加
 AddNoteModal:
   actions:
-    add: メモを追加
+    add: 生徒ノートを追加
     cancel: キャンセル
   fields:
     content: コンテンツ
   placeholders:
-    content: メモを入力してください
-  title: メモを追加
+    content: 生徒ノートを入力してください
+  title: 生徒ノートを追加
 AddStudentModal:
   actions:
-    add-student: 学生を追加
+    add-student: 生徒を追加
     cancel: キャンセル
   errors:
-    id-already-exists: IDはすでに存在します
+    id-already-exists: IDは既に存在しています
   fields:
-    attach-to-user: ユーザーに添付する
-    birthday: たんじょうび
+    attach-to-user: 画像を添付
+    birthday: 誕生日
     courses: コース
-    first-name: ファーストネーム
-    first-name-phonetic: 名のふりがな
+    first-name: 名前
+    first-name-phonetic: 名前のフリガナ
     grade: 学年
     id: ID
-    last-name: 苗字
-    last-name-phonetic: 姓のふりがな
+    last-name: 名字
+    last-name-phonetic: 名字のフリガナ
     monthly-attendance: 毎月の出席
     sign-in-date: サインイン日
     sign-out-date: サインアウト日
     tags: タグ
   notes:
-    courses: 学生は、自分の予約ポータルでこれらすべてのコースのレッスンにアクセスできます。
-    monthly-attendance: これは、学生が毎月授与されるチケットの数です。
-    sign-out-date: 空でない場合、学生は非アクティブと見なされ、予約ポータルは無効になります。
-    tags: 学生は、予約ポータルにこれらのタグの少なくとも1つがあるレッスンにのみアクセスできます。
+    courses: 生徒は、自分の予約ポータルでこれらすべてのコースのレッスンにアクセスできます。
+    monthly-attendance: これは、生徒が毎月授与されるチケットの数です。
+    sign-out-date: 空でない場合、生徒は非アクティブと見なされ、予約ポータルは無効になります。
+    tags: 生徒は、予約ポータルにこれらのタグの少なくとも1つがあるレッスンにのみアクセスできます。
   placeholders:
-    attach-to-user: ユーザーを選択
+    attach-to-user: 画像を選択
     birthday: 誕生日を入力してください
-    first-name: 名を入力してください
-    first-name-phonetic: 名を入力するふりがな
-    grade: グレードを入力してください
+    first-name: 名前を入力してください
+    first-name-phonetic: フリガナを入力してください
+    grade: 学年を入力してください
     id: IDを入力してください
-    last-name: 姓を入力してください
-    last-name-phonetic: ふりがなを入力
+    last-name: 名字を入力してください
+    last-name-phonetic: フリガナを入力してください
     monthly-attendance: 毎月の出席を入力してください
     sign-in-date: サインイン日を入力してください
     sign-out-date: サインアウト日を入力してください
-  title: 学生を追加
+  title: 生徒を追加
 AddTagModal:
   actions:
-    add: タグ付けする
+    add: タグを追加
     cancel: キャンセル
   fields:
     color: 色
-    name: 名前
+    name: タグ名
     preview: プレビュー
   placeholders:
     color: 色を入力してください
-    name: 名前を入力
-  title: タグ付けする
+    name: タグ名を入力
+  title: タグを追加
 AddTeacherModal:
   actions:
-    add-teacher: 教師を追加
+    add-teacher: 講師を追加
     cancel: キャンセル
   fields:
-    birthday: たんじょうび
+    birthday: 誕生日
     courses: コース
     email: Eメール
-    first-name: ファーストネーム
-    first-name-phonetic: 名のふりがな
-    introduction: 序章
-    last-name: 苗字
-    last-name-phonetic: 姓のふりがな
+    first-name: 名前
+    first-name-phonetic: 名前のフリガナ
+    introduction: 紹介文
+    last-name: 名字
+    last-name-phonetic: 名字のフリガナ
     tags: タグ
   placeholders:
-    birthday: レッスン時間を入力してください
-    email: メールアドレスを入力して
-    first-name: 名を入力してください
-    first-name-phonetic: 名を入力するふりがな
-    introduction: はじめにを入力してください
-    last-name: 姓を入力してください
-    last-name-phonetic: ふりがなを入力
-  title: 教師を追加
+    birthday: 誕生日を入力してください
+    email: Eメールを入力してください
+    first-name: 名前を入力してください
+    first-name-phonetic: フリガナを入力してください
+    introduction: 紹介文を入力してください
+    last-name: 名字を入力してください
+    last-name-phonetic: フリガナを入力してください
+  title: 講師を追加
 AddTicketsModal:
   actions:
-    add: チケットを追加する
+    add: チケットを追加
     cancel: キャンセル
     set-valid-next-month: 来月
     set-valid-this-month: 今月
   fields:
     count: カウント
-    valid-from: から有効
-    valid-through: 有効なスルー
+    valid-from: 有効開始日
+    valid-through: 有効期限
   placeholders:
     count: チケット数を入力してください
     valid-from: 有効開始日を入力してください
     valid-through: 有効期限を入力してください
   set-validity-dates: 有効日を設定します。
-  title: チケットを追加する
+  title: チケットを追加
 AddUserModal:
   actions:
-    add-user: ユーザーを追加する
+    add-user: 契約者を追加
     cancel: キャンセル
   errors:
-    email-already-exists: メールは既に存在します
+    email-already-exists: Eメールは既に存在しています
   fields:
-    confirm-password: パスワードを認証する
+    confirm-password: 確認用パスワード
     email: Eメール
-    line-id: LINEID
+    line-id: LINE ID
     name: 名前
     new-password: 新しいパスワード
     phone-number: 電話番号
   placeholders:
-    confirm-password: パスワードを入力する
-    email: メールアドレスを入力して
-    line-id: LINEIDを入力してください
+    confirm-password: 確認用パスワードを入力してください
+    email: Eメールを入力してください
+    line-id: LINE IDを入力してください
     name: 名前を入力
-    password: パスワードを入力する
+    password: パスワードを入力してください
     phone-number: 電話番号を入力してください
-  title: ユーザーを追加する
+  title: 契約者を追加
 AdminDetailsTable:
   actions:
     back: 戻る
-    change-password: パスワードを変更する
-    modify-admin: 管理者の変更
+    change-password: パスワードを変更
+    modify-admin: 管理者を変更
   errors:
     empty-field: データがありません
   fields:
@@ -248,11 +248,11 @@ AdminDetailsTable:
   title: 管理者詳細
 AdminsTable:
   actions:
-    add: 追加
+    add: 管理者を追加
     details: 詳細
   columns:
-    actions: 行動
-    email: メール
+    actions: アクション
+    email: Eメール
     name: 名前
   errors:
     empty-field: データがありません
@@ -260,31 +260,31 @@ AdminsTable:
   title: 管理者
 App:
   errors:
-    authorization: 承認エラー、ログインページへのリダイレクト...
+    authorization: 認証エラー。ログインページへリダイレクトします...
     general-error: エラー
     general-error-title: エラー
     server-error: サーバーエラー
 AssignStudentModal:
   actions:
-    assign-student: 学生を割り当てる
+    assign-student: 生徒を割り当て
     cancel: キャンセル
   errors:
-    already-assigned: すでに割り当てられています
+    already-assigned: 既に割り当てられています
   fields:
     filter-active: アクティブ
     filter-course: フィルターコース
-    student: 学生
+    student: 生徒
   placeholders:
     filter-active: 全生徒
-    student: 学生を選択
-  title: 学生を割り当てる
+    student: 生徒を選択
+  title: 生徒を割り当て
 AttendanceTable:
   columns:
     booking-comment: 備考
-    lesson: レッスン枠
+    lesson: レッスン
     student-course: コース
     student-grade: 学年
-    student-id: 生徒番号
+    student-id: 生徒ID
     student-name: 名前
   date-formats:
     day: yyyy/M/d EEE
@@ -293,10 +293,10 @@ AttendanceTable:
   title: '{0}年{1}月の出席予定'
 BasicModal:
   actions:
-    close: 選ぶ
+    close: 閉じる
 CalendarTable:
   actions:
-    publish-all-lessons: すべてのレッスンを公開する
+    publish-all-lessons: すべてのレッスンを公開
   legend:
     badge: 時間・教室・予約数
     badge-draft: 時間・教室
@@ -316,67 +316,67 @@ CalendarTable:
 ChangePasswordModal:
   actions:
     cancel: キャンセル
-    change-password: パスワードを変更する
+    change-password: パスワードを変更
   fields:
-    confirm-password: パスワードを認証する
+    confirm-password: 確認用パスワード
     new-password: 新しいパスワード
   placeholders:
-    confirm-password: パスワードを入力する
-    enter-password: パスワードを入力する
-    new-password: パスワードを入力する
-    password: パスワードを入力する
-  title: パスワードを変更する
+    confirm-password: 新しいパスワードを入力してください
+    enter-password: パスワードを入力してください
+    new-password: 新しいパスワードを入力してください
+    password: パスワードを入力してください
+  title: パスワードを変更
 ChangePhotoModal:
   actions:
     cancel: キャンセル
-    change: 写真を変更する
-    change-photo: 写真を変更する
+    change: 写真を変更
+    change-photo: 写真を変更
   fields:
     new-photo: 新しい写真
-  title: 写真を変更する
+  title: 写真を変更
 ClassroomSelect:
   classrooms: 教室
-  placeholder: Classroomを選択
+  placeholder: 教室を選択
 ClassroomSelectMultiple:
   no-category-label: 教室
-  placeholder: 教室を選択する
+  placeholder: 教室を選択
 ClassroomsTable:
   actions:
-    add-classroom: 教室を追加する
+    add-classroom: 教室を追加
     modify: 変更
     something: 何か
   columns:
-    actions: 行動
+    actions: アクション
     category: カテゴリー
     id: ID
     max-seats: 最大座席数
-    name: 名前
+    name: 教室名
   errors:
     no-items: 教室が見つかりません。
   title: 教室
 CloneLessonModal:
   actions:
     cancel: キャンセル
-    clone-lesson: クローンレッスン
+    clone-lesson: レッスンをコピー
   fields:
-    assistant-teachers: アシスタントティーチャー
+    assistant-teachers: アシスタント講師
     classroom: クラスルーム
     course: コース
     curriculums: カリキュラム
     date: 日にち
-    end-time: 終了時間
-    main-teacher: 主任教師
+    end-time: 終了時刻
+    main-teacher: メイン講師
     max-booking-count: 最大予約数
-    start-time: 始まる時間
+    start-time: 開始時刻
     tags: タグ
   placeholders:
-    assistant-teachers: アシスタントティーチャーを選択
+    assistant-teachers: アシスタント講師を選択
     course: コースを選択
-    curriculums: カリキュラムを選択する
+    curriculums: カリキュラムを選択
     date: 日付を入力してください
-    main-teacher: メインティーチャーを選択
-    number: 番号を入力してください
-  title: クローンレッスン
+    main-teacher: メイン講師を選択
+    number: 最大予約数を入力してください
+  title: レッスンをコピー
 CourseSelect:
   empty-default: すべてのコース
   placeholder: コースを選択
@@ -385,30 +385,30 @@ CourseSelectMultiple:
 CoursesTable:
   actions:
     add-course: コースを追加
-    delete: 消去
+    delete: 削除
     modify: 変更
   columns:
-    actions: 行動
+    actions: アクション
     badge: バッジ
     description: 説明
     id: ID
-    name: 名前
-    order: 注文
+    name: コース名
+    order: 並び順
   errors:
     no-items: コースが見つかりません。
   title: コース
 CurriculumsTable:
   actions:
-    add-curriculum: カリキュラムを追加する
+    add-curriculum: カリキュラムを追加
     modify: 変更
   columns:
-    actions: 行動
+    actions: アクション
     course: コース
     description: 説明
     documents: ドキュメント
     id: ID
     lesson-time: レッスン時間
-    name: 名前
+    name: カリキュラム名
   errors:
     no-curriculums-found: カリキュラムが見つかりません。
   title: カリキュラム
@@ -429,11 +429,11 @@ EditStudentReportModal:
     save: レポートを保存
   contents-changed-externally: 内容が外部から変更されました！
   fields:
-    attach-images: 画像を添付する
+    attach-images: 画像を添付
     attached-images: 添付画像
   placeholders:
     contents: レポートの内容を入力してください
-  title: 学生レポート
+  title: 生徒レポート
 FormInputAvatar:
   choose-file: ファイルを選ぶ...
 ImageGalleryEditor:
@@ -449,24 +449,24 @@ LessonDetailsTable:
       actions:
         add-report: 追加
         edit-report: 編集
-        remove: 削除する
+        remove: 削除
         view-comment: コメントを見る
         view-reports: レポートを見る
-      created: '{user}による'
-      no-report: まだ報告はありません。
-      updated: '{user}によって更新されました'
+      created: '作成:{user}'
+      no-report: まだレポートはありません。
+      updated: '更新:{user}'
     actions:
       add-booking: 予約を追加
     auto-refresh: このデータは、外部で変更されると自動的に更新されます。
     columns:
-      actions: 行動
+      actions: アクション
       attendance: 出席
       comment: コメント
       name: 名前
       reports: レポート
-      student-id: 学生証
-      student-report: 学生レポート
-    count: '{1}のうち{0}'
+      student-id: 生徒ID
+      student-report: 生徒レポート
+    count: '{0}/{1}'
     no-items: まだ予約はありません。
     title: 予約
   LessonReportTable:
@@ -474,29 +474,29 @@ LessonDetailsTable:
       add: レポートを追加
       edit: レポートの編集
     attached-images: 添付画像
-    created: '{datetime}の{user}による'
+    created: '作成:{user}({datetime})'
     no-images-attached: 画像は添付されていません。
-    no-report: まだ報告はありません。
+    no-report: まだレポートはありません。
     title: レッスンレポート
-    updated: '{datetime}に{user}によって更新されました'
+    updated: '更新:{user}({datetime})'
   actions:
     back: 戻る
-    clone-lesson: クローンレッスン
-    modify-lesson: レッスンの変更
+    clone-lesson: レッスンをコピー
+    modify-lesson: レッスンを変更
     publish-lesson: レッスンの公開
-    remove-lesson: レッスンを削除する
+    remove-lesson: レッスンを削除
     revert-to-draft: ドラフトに戻す
   errors:
     cannot-revert-to-draft: レッスンの予約がある場合、ドラフトに戻すことはできません。
     none: なし
   fields:
-    assistant-teachers: アシスタントティーチャー：
+    assistant-teachers: アシスタント講師：
     classroom: クラスルーム：
     course: コース：
     curriculums: カリキュラム：
     date: 日にち：
     lesson-state: レッスンの状態：
-    main-teacher: 主な先生：
+    main-teacher: メイン講師：
     max-bookings: 最大予約数：
     tags: タグ：
     time: 時間：
@@ -507,7 +507,7 @@ LessonReportModal:
     cancel: キャンセル
     save: レポートを保存
   fields:
-    attach-images: 画像を添付する
+    attach-images: 画像を添付
     attached-images: 添付画像
   placeholders:
     contents: レポートの内容を入力してください
@@ -521,7 +521,7 @@ Login:
     email: Eメール（AdminID）
     login: ログイン
     password: パスワード
-    remember-me: 私を覚えてますか
+    remember-me: アカウントを記憶
   placeholders:
     email: Eメール（AdminID）
     password: パスワード
@@ -535,369 +535,369 @@ MainLayout:
     classrooms: 教室
     courses: コース
     curriculums: カリキュラム
-    logout: すばらしい
-    students: 包
+    logout: ログアウト
+    students: 生徒
     tags: タグ
     teachers: 講師
-    users: 契約
+    users: 契約者
 Modal:
   actions:
     cancel: キャンセル
 ModifyAdminModal:
   buttons:
     cancel: キャンセル
-    modify: 管理者の変更
+    modify: 管理者を変更
   errors:
-    email-already-exists: メールは既に存在します
+    email-already-exists: Eメールは既に存在しています
   fields:
     email: Eメール（AdminID）
     name: 名前
   placeholders:
-    email: メールアドレスを入力して
+    email: Eメールを入力してください
     name: 名前を入力
-  title: 管理者の変更
+  title: 管理者を変更
 ModifyClassroomModal:
   actions:
     cancel: キャンセル
-    modify-classroom: Classroomを変更する
+    modify-classroom: 教室を変更
   fields:
     category: カテゴリー
     id: ID
     max-seats: 最大座席数
-    name: 名前
+    name: 教室名
   placeholders:
     category: カテゴリを入力してください
-    name: 名前を入力
-    number: 番号を入力してください
-  title: Classroomを変更する
+    name: 教室名を入力
+    number: 最大座席数を入力してください
+  title: 教室を変更
 ModifyCourseModal:
   actions:
     cancel: キャンセル
-    modify-course: コースの変更
+    modify-course: コースを変更
   fields:
     badge-color: バッジの色
     badge-label: バッジラベル
     badge-preview: バッジプレビュー
     description: 説明
     id: ID
-    name: 名前
-    order: 注文
+    name: コース名
+    order: 並び順
   placeholders:
     badge-color: バッジの色を入力してください
     badge-label: バッジラベルを入力してください
     description: 説明を入力してください
-    name: 名前を入力
-    order: 番号を入力してください
-  title: コースの変更
+    name: コース名を入力
+    order: 並び順を入力してください
+  title: コースを変更
 ModifyCurriculumModal:
   actions:
     cancel: キャンセル
-    modify: カリキュラムの変更
+    modify: カリキュラムを変更
   fields:
     course: コース
     description: 説明
     documents: ドキュメント
     id: ID
     lesson-time: レッスン時間
-    name: 名前
+    name: カリキュラム名
   placeholders:
     course: コースを選択
     description: 説明を入力してください
     documents: ドキュメントを入力してください
     lesson-time: レッスン時間を入力してください
-    name: 名前を入力
-  title: カリキュラムの変更
+    name: カリキュラム名を入力
+  title: カリキュラムを変更
 ModifyLessonModal:
   actions:
     cancel: キャンセル
-    modify: レッスンの変更
+    modify: レッスンを変更
   fields:
-    assistant-teachers: アシスタントティーチャー
+    assistant-teachers: アシスタント講師
     classroom: クラスルーム
     course: コース
     curriculums: カリキュラム
     date: 日にち
-    end-time: 終了時間
-    main-teacher: 主任教師
+    end-time: 終了時刻
+    main-teacher: メイン講師
     max-booking-count: 最大予約数
-    start-time: 始まる時間
+    start-time: 開始時刻
     tags: タグ
   placeholders:
-    assistant-teachers: アシスタントティーチャーを選択
-    curriculums: カリキュラムを選択する
-    main-teacher: メインティーチャーを選択
-    number: 番号を入力してください
-  title: レッスンの変更
+    assistant-teachers: アシスタント講師を選択
+    curriculums: カリキュラムを選択
+    main-teacher: メイン講師を選択
+    number: 最大予約数を入力してください
+  title: レッスンを変更
 ModifyStudentModal:
   actions:
     cancel: キャンセル
-    modify: 学生を変更する
+    modify: 生徒を変更
   fields:
-    birthday: たんじょうび
+    birthday: 誕生日
     courses: コース
-    first-name: ファーストネーム
-    first-name-phonetic: 名のふりがな
+    first-name: 名前
+    first-name-phonetic: 名前のフリガナ
     grade: 学年
     id: ID
-    last-name: 苗字
-    last-name-phonetic: 姓のふりがな
+    last-name: 名字
+    last-name-phonetic: 名字のフリガナ
     monthly-attendance: 毎月の出席
     sign-in-date: サインイン日
     sign-out-date: サインアウト日
     tags: タグ
   notes:
-    course: 学生は、自分の予約ポータルでこれらすべてのコースのレッスンにアクセスできます。
-    monthly-attendance: これは、学生が毎月初めに授与されるチケットの数です。
-    sign-out-date: 空でない場合、学生は非アクティブと見なされ、予約ポータルは無効になります。
-    tags: 学生は、予約ポータルにこれらのタグの少なくとも1つがあるレッスンにのみアクセスできます。
+    course: 生徒は、自分の予約ポータルでこれらすべてのコースのレッスンにアクセスできます。
+    monthly-attendance: これは、生徒が毎月初めに授与されるチケットの数です。
+    sign-out-date: 空でない場合、生徒は非アクティブと見なされ、予約ポータルは無効になります。
+    tags: 生徒は、予約ポータルにこれらのタグの少なくとも1つがあるレッスンにのみアクセスできます。
   placeholders:
     birthday: 誕生日を入力してください
-    first-name: 名を入力してください
-    first-name-phonetic: 名を入力するふりがな
-    grade: グレードを入力してください
-    last-name: 姓を入力してください
-    last-name-phonetic: ふりがなを入力
+    first-name: 名前を入力してください
+    first-name-phonetic: フリガナを入力してください
+    grade: 学年を入力してください
+    last-name: 名字を入力してください
+    last-name-phonetic: フリガナを入力してください
     monthly-attendance: 毎月の出席を入力してください
     sign-in-date: サインイン日を入力してください
     sign-out-date: サインアウト日を入力してください
-  title: 学生を変更する
+  title: 生徒を変更
 ModifyTagModal:
   actions:
     cancel: キャンセル
-    modify: タグを変更する
+    modify: タグを変更
   fields:
     color: 色
-    name: 名前
+    name: タグ名
     preview: プレビュー
   placeholders:
     color: 色を入力してください
-    name: 名前を入力
-  title: タグを変更する
+    name: タグ名を入力
+  title: タグを変更
 ModifyTeacherModal:
   actions:
     cancel: キャンセル
-    modify-teacher: 教師を変更する
+    modify-teacher: 講師を変更
   fields:
-    birthday: たんじょうび
+    birthday: 誕生日
     courses: コース
     email: Eメール
-    first-name: ファーストネーム
-    first-name-phonetic: 名のふりがな
-    introduction: 序章
-    last-name: 苗字
-    last-name-phonetic: 姓のふりがな
+    first-name: 名前
+    first-name-phonetic: 名前のフリガナ
+    introduction: 紹介文
+    last-name: 名字
+    last-name-phonetic: 名字のフリガナ
     tags: タグ
   placeholders:
     birthday: レッスン時間を入力してください
     first-name-phonetic: レッスン時間を入力してください
     introduction: はじめにを入力してください
     last-name-phonetic: レッスン時間を入力してください
-  title: 教師を変更する
+  title: 講師を変更
 ModifyUserModal:
   actions:
     cancel: キャンセル
-    modify-user: ユーザーの変更
+    modify-user: 契約者を変更
   errors:
-    email-already-exists: メールは既に存在します
+    email-already-exists: Eメールは既に存在しています
   fields:
     email: Eメール
-    line-id: LINEID
+    line-id: LINE ID
     name: 名前
     phone-number: 電話番号
   placeholders:
-    email: メールアドレスを入力して
-    line-id: LINEIDを入力してください
+    email: Eメールを入力してください
+    line-id: LINE IDを入力してください
     name: 名前を入力
     phone-number: 電話番号を入力してください
-  title: ユーザーの変更
+  title: 契約者を変更
 PublishCalendarModal:
   actions:
     'no': いいえ
     'yes': はい
   question: 選択した教室のすべてのドラフトレッスンを公開してもよろしいですか？
-  title: すべてのレッスンを公開する
+  title: すべてのレッスンを公開
   warning:
-    appear-in-student-calendar: レッスンは学生ポータルのカレンダーに表示されます。
-    bookings-enabled: 予約が有効になります、
-    can-no-longer-delete: それらを削除することはできなくなります、
+    appear-in-student-calendar: レッスンは生徒ポータルのカレンダーに表示されます。
+    bookings-enabled: 予約が有効になります。
+    can-no-longer-delete: それらを削除することはできなくなります。
     title: 警告！
 PublishLessonModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このレッスンを公開してもよろしいですか？
   title: レッスンの公開
   warning:
-    appear-in-students-calendar: レッスンは学生ポータルのカレンダーに表示されます。
-    bookings-enabled: 予約が有効になります、
-    cannot-delete: もう削除することはできません、
+    appear-in-students-calendar: レッスンは生徒ポータルのカレンダーに表示されます。
+    bookings-enabled: 予約が有効になります。
+    cannot-delete: もう削除することはできません。
     title: 警告！
 RemoveBookingModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: この予約を削除してもよろしいですか？
-  title: 予約を削除する
+  title: 予約を削除
   warning:
-    ticket-already-consumed: 過去のレッスンの予約をキャンセルしても、すでにチケットは消費されているため、返却されませんのでご注意ください。
+    ticket-already-consumed: 過去のレッスンの予約をキャンセルしても、既にチケットは消費されているため、返却されませんのでご注意ください。
     title: 警告！
 RemoveCourseModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このコースを削除してもよろしいですか？
   title: コースを削除
 RemoveLessonModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このレッスンを削除してもよろしいですか？
-  title: レッスンを削除する
+  title: レッスンを削除
 RemoveNoteModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このメモを削除してもよろしいですか？
   title: メモを削除
 RemoveTagModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このタグを削除してもよろしいですか？
-  title: タグを削除する
+  title: タグを削除
 RemoveTicketModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このチケットを削除してもよろしいですか？
   ticket-label: 発行場所— {0}・有効開始日— {1}・有効期間— {2}
-  title: チケットを削除する
+  title: チケットを削除
 RevertLessonToDraftModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
   question: このレッスンをドラフトに戻してもよろしいですか？
   title: ドラフトに戻す
   warning:
-    disappear-from-student-calendar: レッスンは学生ポータルのカレンダーから消えます。
+    disappear-from-student-calendar: レッスンは生徒ポータルのカレンダーから消えます。
     title: 警告！
 StudentDetailsTable:
   BookingsTable:
     actions:
       view-report: レポートを見る
     attendance:
-      absent: 不在
-      not-checked: 未検査
-      present: 現在
+      absent: 欠席
+      not-checked: 未チェック
+      present: 出席
     columns:
       attendance: 出席
       comment: コメント
       date: 日にち
       lesson: レッスン
-      report: 報告
-    created: '{ユーザー}による'
+      report: レポート
+    created: '作成:{user}'
     no-items: 予約が見つかりません。
-    no-report: まだ報告はありません。
+    no-report: まだレポートはありません。
     notes:
       future-lessons-no-report-or-attendance: 今後のレッスンでは、レポートや出席はまだチェックされていません。
       ticket-consumed: この予約のチケットは消費されました。
       ticket-not-consumed: この予約のチケットはまだ消費されていません。
     title: '{0}の予約'
-    updated: '{ユーザー}による'
+    updated: '更新:{user}'
   NotesTable:
     actions:
-      add: メモを追加
-      remove: 削除する
-      view: メモを見る
+      add: 生徒ノートを追加
+      remove: 削除
+      view: 生徒ノートを見る
     columns:
-      actions: 行動
-      author: 著者
+      actions: アクション
+      author: 記入者
       content: コンテンツ
       date: 日にち
-    no-items: メモが見つかりません。
-    title: 学生ノート
+    no-items: 生徒ノートが見つかりません。
+    title: 生徒ノート
   TicketsTable:
     actions:
-      add: チケットを追加する
-      remove: 削除する
+      add: チケットを追加
+      remove: 削除
     columns:
-      actions: 行動
+      actions: アクション
       associated-booking: 関連する予約
-      issued-at: で発行された
-      valid-from: から有効
-      valid-through: 有効なスルー
+      issued-at: 発行
+      valid-from: 有効開始日
+      valid-through: 有効期限
     errors:
       no-other-ticket-valid-for-booking: 予約に有効な他のチケットはありません。
     no-items: チケットが見つかりません。
     ticket-is-available: チケットをご用意しております。
-    title: 切符売場
+    title: チケット
   UsersTable:
     columns:
       email: Eメール
-      line-id: LINEID
+      line-id: LINE ID
       name: 名前
       phone-number: 電話番号
-    no-items: ユーザが見つかりませんでした。
-    title: ユーザー
+    no-items: 契約者が見つかりませんでした。
+    title: 契約者
   actions:
     back: 戻る
-    change-photo: 写真を変更する
-    modify-student: 学生を変更する
+    change-photo: 写真を変更
+    modify-student: 生徒を変更
   errors:
     empty: なし
   fields:
-    birthday: たんじょうび：
+    birthday: 誕生日：
     courses: コース：
     grade: 学年：
     id: ID：
     monthly-attendance: 毎月の出席：
     name: 名前：
     number-of-tickets: チケット数：
-    phonetic: ふりがな：
+    phonetic: フリガナ：
     photo: 写真：
     sign-in-date: サインイン日：
     sign-out-date: サインアウト日：
     tags: タグ：
-  title: 学生の詳細
+  title: 生徒の詳細
 StudentReportsModal:
   errors:
     error-loading-contents: コンテンツの読み込み中にエラーが発生しました。
   information: このレッスンの前に最大10件の予約を表示します。
   loading: 読み込み中
   no-items-found: 過去の予約は見つかりませんでした。
-  title: 学生レポート
+  title: 生徒レポート
 StudentReportsModal-Report:
   attached-images: 添付画像
-  created: '{datetime}の{user}による'
+  created: '作成:{user}({datetime})'
   errors:
     no-images-attached: 画像は添付されていません。
-    no-report: 報告はありません。
-    student-absent: 学生は欠席した。
-  updated: '{datetime}に{user}によって更新されました'
+    no-report: レポートはありません。
+    student-absent: 生徒は欠席しました。
+  updated: '更新:{user}({datetime})'
 StudentsTable:
   actions:
-    add-student: 学生を追加
+    add-student: 生徒を追加
     details: 詳細
-    view-note: メモを見る
+    view-note: 生徒ノートを見る
   columns:
-    actions: 行動
+    actions: アクション
     courses: コース
     grade: 学年
     id: ID
     monthly-attendance: 月
     name: 名前
-    notes: 備考
-    phonetic: ふりがな
+    notes: 生徒ノート
+    phonetic: フリガナ
     tags: タグ
     tickets: 残
   filters:
-    active-students: アクティブな学生
-  items-count: 見つかった基準に一致する学生：{0}
+    active-students: アクティブな生徒
+  items-count: 見つかった基準に一致する生徒：{0}
   placeholders:
     active-students: 全生徒
-  title: 学生
+  title: 生徒
 TagsFilter:
-  clear: 晴れ
+  clear: クリア
   placeholder: タグでフィルタリング
   selected-count: '{0}が選択されました'
   tags-count: '{count}タグ'
@@ -906,73 +906,73 @@ TagsModifySelect:
   placeholder: タグを選択
 TagsTable:
   actions:
-    add-tag: タグ付けする
-    delete: 消去
+    add-tag: タグを追加
+    delete: 削除
     modify: 変更
   fields:
-    actions: 行動
+    actions: アクション
     color: 色
-    future-lessons: 今後の教訓
-    name: 名前
-    students: 学生
-    teachers: 教師
+    future-lessons: 今後のレッスン
+    name: タグ名
+    students: 生徒
+    teachers: 講師
   no-items: タグが見つかりません。
   title: タグ
 TeacherDetailsTable:
   actions:
     back: 戻る
-    change-password: パスワードを変更する
-    change-photo: 写真を変更する
-    modify-teacher: 教師を変更する
+    change-password: パスワードを変更
+    change-photo: 写真を変更
+    modify-teacher: 講師を変更
   errors:
     none: なし
   fields:
-    birthday: たんじょうび：
+    birthday: 誕生日：
     courses: コース：
     email: Eメール：
     id: ID：
-    introduction: 序章：
+    introduction: 紹介文：
     name: 名前：
-    phonetic: ふりがな：
+    phonetic: フリガナ：
     photo: 写真：
     tags: タグ：
-  title: 先生の詳細
+  title: 講師の詳細
 TeachersTable:
   actions:
-    add-teacher: 教師を追加
+    add-teacher: 講師を追加
     details: 詳細
   columns:
-    actions: 行動
+    actions: アクション
     courses: コース
     name: 名前
-    phonetic: ふりがな
+    phonetic: フリガナ
     tags: タグ
-  no-items: 教師が見つかりませんでした。
-  title: 教師
+  no-items: 講師が見つかりませんでした。
+  title: 講師
 UnassignStudentModal:
   actions:
-    'no': 番号
+    'no': いいえ
     'yes': はい
-  question: この学生の割り当てをこのユーザーから解除してもよろしいですか？
-  title: 生徒の割り当てを解除する
+  question: この生徒の割り当てをこの契約者から解除してもよろしいですか？
+  title: 生徒の割り当てを解除
 UserDetailsTable:
   StudentsTable:
     actions:
-      assign-student: 学生を割り当てる
+      assign-student: 生徒を割り当て
       unassign: 割り当て解除
     columns:
-      actions: 行動
+      actions: アクション
       courses: コース
       id: ID
       name: 名前
-      phonetic: ふりがな
+      phonetic: フリガナ
       tags: タグ
-    no-items: 学生が見つかりませんでした。
-    title: 学生
+    no-items: 生徒が見つかりませんでした。
+    title: 生徒
   actions:
     back: 戻る
-    change-password: パスワードを変更する
-    modify-user: ユーザーの変更
+    change-password: パスワードを変更
+    modify-user: 契約者を変更
   fields:
     created-date: 作成日：
     email: Eメール：
@@ -980,41 +980,41 @@ UserDetailsTable:
     line-id: LINE ID：
     name: 名前：
     phone-number: 電話番号：
-  title: ユーザーの詳細
+  title: 契約者の詳細
 UsersTable:
   actions:
-    add-user: ユーザーを追加する
+    add-user: 契約者を追加
     details: 詳細
   columns:
-    actions: 行動
+    actions: アクション
     courses: コース
-    created: 作成した
+    created: 作成日
     name: 名前
-    phonetic: ふりがな
-    student-id: 学生証
-    student-name: 学生の名前
+    phonetic: フリガナ
+    student-id: 生徒ID
+    student-name: 生徒の名前
     tags: タグ
   errors:
-    no-students-assigned: 学生は割り当てられていません。
+    no-students-assigned: 生徒は割り当てられていません。
   filters:
-    active-users: アクティブユーザー
-  no-items: ユーザが見つかりませんでした。
+    active-users: アクティブな契約者
+  no-items: 契約者が見つかりませんでした。
   placeholders:
-    active-users: すべてのユーザー
-  title: ユーザー
+    active-users: すべての契約者
+  title: 契約者
 ViewCommentModal:
   actions:
-    close: 選ぶ
+    close: 閉じる
   title: 予約コメント
 ViewNoteModal:
   actions:
-    close: 選ぶ
-  title: 学生メモ
+    close: 閉じる
+  title: 生徒ノート
 ViewReportModal:
   actions:
-    close: 選ぶ
+    close: 閉じる
   attached-images: 添付画像
-  created: '{datetime}に{user}による'
+  created: '作成:{user}({datetime})'
   no-images-attached: 画像は添付されていません。
-  title: 学生レポート
-  updated: '{datetime}に{user}によって更新されました'
+  title: 生徒レポート
+  updated: '更新:{user}({datetime})'
